@@ -1,0 +1,17 @@
+name: task_cli
+description: >
+  Une application en ligne de commande (CLI) pour gérer des tâches,
+  développée entièrement en Dart pur (sans Flutter) avec une Clean
+  Architecture stricte (Domain / Infrastructure / Presentation).
+version: 1.0.0
+publish_to: 'none'
+repository: https://github.com/moozkean/task_cli.git
+homepage: https://github.com/moozkean/task_cli
+issue_tracker: https://github.com/moozkean/task_cli/issues
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dev_dependencies:
+  test: ^1.25.0
+  lints: ^4.0.0 
